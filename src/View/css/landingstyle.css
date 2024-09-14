@@ -1,16 +1,17 @@
 html{
     color: darkgrey;
     margin:0;
-    font-size: 3vh;
 }
 body{
     margin: 0;
 }
 aside{
     height: 100vh;
+    width: 20vw;
     border-right: 5px solid black;
     text-align: center;
     float:left;
+    font-size:2vw;
 }
 
 #background{
@@ -40,7 +41,7 @@ main{
 }
 
 #intro{
-    font-size: 10vh;
+    font-size: 4vw;
     position: relative;
     top:30vh;
     font-weight: bolder;
