@@ -1,0 +1,49 @@
+html{
+    color: darkgrey;
+    margin:0;
+    font-size: 3vh;
+}
+body{
+    margin: 0;
+}
+aside{
+    height: 100vh;
+    border-right: 5px solid black;
+    text-align: center;
+    float:left;
+}
+
+#background{
+    position: fixed;
+    width: 100vw;
+    z-index: -1;
+}
+a, a:visited{
+    color: darkgrey;
+    z-index:2;
+}
+
+a:hover{
+    color:blue;
+}
+#profPic{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+}
+
+main{
+    position: relative;
+    left:1vw;
+}
+
+#intro{
+    font-size: 10vh;
+    position: relative;
+    top:30vh;
+    font-weight: bolder;
+    justify-content: center;
+    margin-left:3vw;
+}
