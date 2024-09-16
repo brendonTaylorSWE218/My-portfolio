@@ -1,12 +1,16 @@
 html{
-    color: darkgrey;
+    color: lightgrey;
     margin:0;
-    text-shadow: 1px 1px .5px black;
+    background-color: black;
+    text-shadow: 1px 1px 3px black;
 }
 body{
     margin: 0;
 }
 aside{
+    position:fixed;
+    left:0;
+    top:0;
     height: 100vh;
     width: 20vw;
     border-right: 5px solid black;
@@ -15,12 +19,13 @@ aside{
 }
 header{
     font-size: 4vw;
-    margin-left:2vw;
+    margin-left:0;
 }
 
 
 #background{
     position: fixed;
+    opacity: 50%;
     width: 100vw;
     z-index: -1;
 }
@@ -43,26 +48,25 @@ a:hover{
 
 main{
     position: absolute;
+    width:70vw;
+    padding-bottom: 8vh;
     top:0;
-    left:20vw;
+    left:22vw;
 }
 
 #intro{
     font-size: 3vw;
     position: relative;
     top:35vh;
-    margin-left:2vw;
 }
 
 #resume{
-    font-size: 1.55vh;
+    font-size: 1.5vw;
     position: relative;
     top:1vh;
-    margin-left:2vw;
 }
 #contact{
     font-size: 3vw;
-    margin-left: 2vw;
 }
 
 .title{
@@ -76,6 +80,9 @@ main{
     margin-left: 2vw;
 }
 #projects{
-    margin-left:2vw;
+    font-size: 1.5vw;
+}
+
+#about{
     font-size: 1.5vw;
 }
