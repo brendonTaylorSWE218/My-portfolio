@@ -4,6 +4,12 @@ html{
     background-color: black;
     text-shadow: 1px 1px 3px black;
 }
+#background{
+    position: fixed;
+    opacity: 50%;
+    width: 100vw;
+    z-index: -1;
+}
 body{
     margin: 0;
 }
@@ -21,19 +27,10 @@ header{
     font-size: 4vw;
     margin-left:0;
 }
-
-
-#background{
-    position: fixed;
-    opacity: 50%;
-    width: 100vw;
-    z-index: -1;
-}
 a, a:visited{
     color: darkgrey;
     z-index:2;
 }
-
 a:hover{
     color:blue;
 }
@@ -45,7 +42,6 @@ a:hover{
     width: 8vw;
     border-radius: 50%;
 }
-
 main{
     position: absolute;
     width:70vw;
@@ -53,13 +49,11 @@ main{
     top:0;
     left:22vw;
 }
-
 #intro{
     font-size: 3vw;
     position: relative;
     top:35vh;
 }
-
 #resume{
     font-size: 1.5vw;
     position: relative;
@@ -68,7 +62,6 @@ main{
 #contact{
     font-size: 3vw;
 }
-
 .title{
     text-decoration: underline;
     font-weight: bolder;
