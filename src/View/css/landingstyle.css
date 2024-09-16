@@ -25,7 +25,6 @@ header{
 
 #background{
     position: fixed;
-    opacity: 50%;
     width: 100vw;
     z-index: -1;
 }
