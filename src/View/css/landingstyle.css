@@ -1,12 +1,10 @@
 html{
     color: lightgrey;
     margin:0;
-    background-color: black;
     text-shadow: 1px 1px 3px black;
 }
 #background{
     position: fixed;
-    opacity: 50%;
     width: 100vw;
     z-index: -1;
 }
