@@ -1,6 +1,7 @@
 html{
     color: darkgrey;
     margin:0;
+    text-shadow: 1px 1px .5px black;
 }
 body{
     margin: 0;
