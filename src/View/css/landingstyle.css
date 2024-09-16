@@ -1,0 +1,80 @@
+html{
+    color: darkgrey;
+    margin:0;
+}
+body{
+    margin: 0;
+}
+aside{
+    height: 100vh;
+    width: 20vw;
+    border-right: 5px solid black;
+    text-align: center;
+    font-size:2vw;
+}
+header{
+    font-size: 4vw;
+    margin-left:2vw;
+}
+
+
+#background{
+    position: fixed;
+    width: 100vw;
+    z-index: -1;
+}
+a, a:visited{
+    color: darkgrey;
+    z-index:2;
+}
+
+a:hover{
+    color:blue;
+}
+#profPic{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+}
+
+main{
+    position: absolute;
+    top:0;
+    left:20vw;
+}
+
+#intro{
+    font-size: 3vw;
+    position: relative;
+    top:35vh;
+    margin-left:2vw;
+}
+
+#resume{
+    font-size: 1.55vh;
+    position: relative;
+    top:1vh;
+    margin-left:2vw;
+}
+#contact{
+    font-size: 3vw;
+    margin-left: 2vw;
+}
+
+.title{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.bold{
+    font-weight: bolder;
+}
+.indent{
+    margin-left: 2vw;
+}
+#projects{
+    margin-left:2vw;
+    font-size: 1.5vw;
+}
