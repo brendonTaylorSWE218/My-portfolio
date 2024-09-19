@@ -3,36 +3,13 @@ html{
     margin:0;
     text-shadow: 1px 1px 3px black;
     font-size: 1.5vw;
-}
-#background{
-    position: fixed;
-    z-index: -1;
+    background-image: url(../images/background1.jpg) ;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    background-position: right top;
 }
 
-@media screen and (max-width: 599px) {
-    #background{
-        content:url("../images/background1XSmall.jpg");
-        width:600px;
-    }
-}
-@media screen and (min-width: 600px) {
-    #background{
-        content:url("../images/background1Small.jpg");
-        width:900px;
-    }
-}
-@media (min-width: 900px) {
-    #background{
-        content:url("../images/background1Med.jpeg");
-        width:1600px;
-    }
-}
-@media (min-width: 1600px) {
-    #background{
-        content:url("../images/background1.jpg");
-        width:100vw;
-    }
-}
 body{
     margin: 0;
 }
