@@ -2,11 +2,33 @@ html{
     color: lightgrey;
     margin:0;
     text-shadow: 1px 1px 3px black;
+    font-size: 1.5vw;
 }
 #background{
     position: fixed;
-    width: 100vw;
+    width:100vw;
     z-index: -1;
+}
+
+@media screen and (max-width: 599px) {
+    #background{
+        content:url("../images/background1XSmall.jpg");
+    }
+}
+@media screen and (min-width: 600px) {
+    #background{
+        content:url("../images/background1Small.jpg");
+    }
+}
+@media (min-width: 900px) {
+    #background{
+        content:url("../images/background1Med.jpeg");
+    }
+}
+@media (min-width: 1600px) {
+    #background{
+        content:url("../images/background1.jpg");
+    }
 }
 body{
     margin: 0;
@@ -19,10 +41,10 @@ aside{
     width: 20vw;
     border-right: 5px solid black;
     text-align: center;
-    font-size:2vw;
+    font-size:1.5rem;
 }
 header{
-    font-size: 4vw;
+    font-size: 2.5rem;
     margin-left:0;
 }
 a, a:visited{
@@ -48,17 +70,17 @@ main{
     left:22vw;
 }
 #intro{
-    font-size: 3vw;
+    font-size: 2rem;
     position: relative;
     top:35vh;
 }
 #resume{
-    font-size: 1.5vw;
+    font-size: 1rem;
     position: relative;
     top:1vh;
 }
 #contact{
-    font-size: 3vw;
+    font-size: 2rem;
 }
 .title{
     text-decoration: underline;
@@ -71,12 +93,12 @@ main{
     margin-left: 2vw;
 }
 #projects{
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 #about{
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 #recommendation{
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
