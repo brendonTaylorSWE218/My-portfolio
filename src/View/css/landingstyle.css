@@ -6,28 +6,31 @@ html{
 }
 #background{
     position: fixed;
-    width:100vw;
     z-index: -1;
 }
 
 @media screen and (max-width: 599px) {
     #background{
         content:url("../images/background1XSmall.jpg");
+        width:600px;
     }
 }
 @media screen and (min-width: 600px) {
     #background{
         content:url("../images/background1Small.jpg");
+        width:900px;
     }
 }
 @media (min-width: 900px) {
     #background{
         content:url("../images/background1Med.jpeg");
+        width:1600px;
     }
 }
 @media (min-width: 1600px) {
     #background{
         content:url("../images/background1.jpg");
+        width:100vw;
     }
 }
 body{
